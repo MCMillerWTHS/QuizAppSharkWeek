@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:background="#33FFF9"
         android:textAlignment="center"
-        android:text="Do Sharks live in water?"
+        android:text="Sharks can only be found in salt water?"
         android:textSize="30dp" />
 
     <LinearLayout
@@ -46,8 +46,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#E524B6"
-        android:id="@+id/scoreBTN"
-        android:text="SHOW SCORE"
+        android:id="@+id/nextBTN"
+        android:text="NEXT"
         />
 
 
