@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     TextView questionTV;
     Button falseBTN,trueBTN;
+    int count = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
         falseBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                CharSequence message = "You are NOT correct!";
+                count = count - 1;
+                CharSequence message = "You are NOT correct! Score: " + count;
                 int duration = Toast.LENGTH_SHORT;
 
                 Toast toast = Toast.makeText(getApplicationContext(), message, duration);
@@ -34,8 +36,9 @@ public class MainActivity extends AppCompatActivity {
         trueBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                CharSequence message = "You are Correct!";
-                int duration = Toast.LENGTH_SHORT;
+                count = count + 1;
+                CharSequence message = "You are Correct! Score: " + count;
+                int duration = Toast.LENGTH_LONG;
 
                 Toast toast = Toast.makeText(getApplicationContext(), message, duration);
                 toast.show();

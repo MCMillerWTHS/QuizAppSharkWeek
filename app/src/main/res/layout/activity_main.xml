@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D0D2D2"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -9,6 +10,8 @@
         android:id="@+id/questionTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#33FFF9"
+        android:textAlignment="center"
         android:text="Do Sharks live in water?"
         android:textSize="30dp" />
 
@@ -25,6 +28,13 @@
             android:id="@+id/trueBTN"
             android:text="TRUE"
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#D0D2D2"
+            android:text="        "
+            android:textSize="30dp" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -32,6 +42,7 @@
             android:id="@+id/falseBTN"
             android:text="FALSE"
             />
+
     </LinearLayout>
 
 
