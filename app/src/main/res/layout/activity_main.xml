@@ -19,15 +19,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center"
-        >
+        android:gravity="center">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_on_secondary"
             android:id="@+id/trueBTN"
-            android:text="TRUE"
-            />
+            android:text="TRUE" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,6 +42,13 @@
             />
 
     </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E524B6"
+        android:id="@+id/scoreBTN"
+        android:text="SHOW SCORE"
+        />
 
 
 </LinearLayout>
