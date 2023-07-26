@@ -13,6 +13,7 @@
     <string name="score">Score:</string>
     <string name="email">EMAIL</string>
     <string name="subjectText">New Quiz Score on Shark App.</string>
-    <string name="bodyPart1">I just got a score of: </string>
+    <string name="bodyPart1">I just got a score of: \u0020</string>
     <string name="bodyPart2">/5 on Shark App</string>
+    <string name="captionQ1">Shark in Salt Water</string>
 </resources>
