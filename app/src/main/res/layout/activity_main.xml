@@ -2,17 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D0D2D2"
+    android:background="@color/gray"
     android:gravity="center"
     android:orientation="vertical">
-
     <TextView
         android:id="@+id/questionTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#33FFF9"
+        android:background="@color/teal"
         android:textAlignment="center"
-        android:text="Sharks can only be found in salt water?"
+        android:text="@string/q1Text"
         android:textSize="30dp" />
 
     <LinearLayout
@@ -25,11 +24,11 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_on_secondary"
             android:id="@+id/trueBTN"
-            android:text="TRUE" />
+            android:text="@string/trueText" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#D0D2D2"
+            android:background="@color/gray"
             android:text="        "
             android:textSize="30dp" />
 
@@ -38,16 +37,16 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_on_secondary"
             android:id="@+id/falseBTN"
-            android:text="FALSE"
+            android:text="@string/falseText"
             />
 
     </LinearLayout>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#E524B6"
+        android:backgroundTint="@color/purple"
         android:id="@+id/nextBTN"
-        android:text="NEXT"
+        android:text="@string/next"
         />
 
 

@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">QuizAppSharkWeek</string>
+    <string name="q1Text">Sharks can only be found in salt water?</string>
+    <string name="q2Text">Sharks must eat continually in order to survive.</string>
+    <string name="q3Text">More shark attacks occur during the day than at night.</string>
+    <string name="q4Text">Sharks can have up to nine gills on each side of their body.</string>
+    <string name="q5Text">The smallest species of shark in the world is the Dwarf Lanternfish.</string>
+    <string name="correctMessage">You are Correct!</string>
+    <string name="incorrectMessage">You are NOT correct!</string>
+    <string name="trueText">TRUE</string>
+    <string name="falseText">FALSE</string>
+    <string name="next">NEXT</string>
+    <string name="score">Score:</string>
+    <string name="email">EMAIL</string>
+    <string name="subjectText">New Quiz Score on Shark App.</string>
+    <string name="bodyPart1">I just got a score of: </string>
+    <string name="bodyPart2">/5 on Shark App</string>
 </resources>

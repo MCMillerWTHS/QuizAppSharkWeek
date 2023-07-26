@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#33FFF9"
-        android:text = "Score: "
+        android:text = "@string/score"
         android:textAlignment="center"
         android:textSize="60dp"
         />
@@ -22,5 +22,11 @@
         android:textAlignment="center"
         android:textSize="60dp"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E524B6"
+        android:id="@+id/emailBTN"
+        android:text="@string/email" />
 
 </LinearLayout>

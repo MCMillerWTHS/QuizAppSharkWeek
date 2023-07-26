@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
         trueBTN = (Button) findViewById(R.id.trueBTN);
         nextBTN = (Button) findViewById(R.id.nextBTN);
         score = 0;
-        q1 = new Question("Sharks can only be found in salt water?", false);
-        q2 = new Question("Sharks must eat continually in order to survive",false);
-        q3 = new Question("More shark attacks occur during the day than at night", true);
-        q4 = new Question("Sharks can have up to nine gills on each side of their body", false);
-        q5 = new Question("The smallest species of shark in the world is the Dwarf Lanternfish", true);
+        q1 = new Question(getString(R.string.q1Text), false);
+        q2 = new Question(getString(R.string.q2Text),false);
+        q3 = new Question(getString(R.string.q3Text), true);
+        q4 = new Question(getString(R.string.q4Text), false);
+        q5 = new Question(getString(R.string.q5Text), true);
         currentQ = q1;
         currentIndex = 0;
         questions = new Question[] {q1, q2, q3, q4, q5};
@@ -45,11 +45,11 @@ public class MainActivity extends AppCompatActivity {
                 if(false == currentQ.getCorrectAnswer())
                 {
                     score++;
-                    String message = "You are Correct!";
+                    message = getString(R.string.correctMessage);
                 }
                 else
                 {
-                    String message = "You are NOT correct!";
+                     message = getString(R.string.incorrectMessage);
                 }
 
                 int duration = Toast.LENGTH_SHORT;
@@ -64,11 +64,11 @@ public class MainActivity extends AppCompatActivity {
                 if(true == currentQ.getCorrectAnswer())
                 {
                     score++;
-                    String message = "You are Correct!";
+                    message = getString(R.string.correctMessage);
                 }
                 else
                 {
-                    String message = "You are NOT correct!";
+                    message = getString(R.string.incorrectMessage);
                 }
 
                 int duration = Toast.LENGTH_SHORT;
