@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         int initialColor = mPreferences.getInt(COLOR_KEY,0 );
         //grab the main activity's id
         View layout = findViewById(R.id.mainView);
-        
+
         if(initialColor == R.id.redBTN)
         {
             layout.setBackgroundColor(Color.parseColor("red"));
