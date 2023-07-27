@@ -16,4 +16,11 @@
     <string name="bodyPart1">I just got a score of: \u0020</string>
     <string name="bodyPart2">/5 on Shark App</string>
     <string name="captionQ1">Shark in Salt Water</string>
+    <string name="background">Select a background color:</string>
+    <string name="redBTNText">Shark Bite Red</string>
+    <string name="blueBTNText">Ocean Blue</string>
+    <string name="grayBTNText">Shark Skin Gray</string>
+    <string name="greenBTNText">Seaweed Green</string>
+    <string name="backgroundText">Click your background color</string>
+
 </resources>

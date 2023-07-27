@@ -5,6 +5,37 @@
     android:background="@color/gray"
     android:gravity="center"
     android:orientation="vertical">
+    <TextView
+        android:id="@+id/backgroundTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/backgroundText"
+        android:textSize="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:id="@+id/redBTN"
+            android:text="@string/redBTNText" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:id="@+id/blueBTN"
+            android:text="@string/blueBTNText" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green"
+            android:id="@+id/greenBTN"
+            android:text="@string/greenBTNText" />
+    </LinearLayout>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="300dp"
@@ -30,23 +61,15 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/design_default_color_on_secondary"
+            android:backgroundTint="@color/black"
             android:id="@+id/trueBTN"
             android:text="@string/trueText" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/gray"
-            android:text="        "
-            android:textSize="30dp" />
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/design_default_color_on_secondary"
+            android:backgroundTint="@color/black"
             android:id="@+id/falseBTN"
-            android:text="@string/falseText"
-            />
+            android:text="@string/falseText" />
 
     </LinearLayout>
     <Button

@@ -16,15 +16,13 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     TextView questionTV;
     ImageView pictureIV;
-    Button falseBTN, trueBTN, nextBTN;
+    Button falseBTN, trueBTN, nextBTN, redBTN, greenBTN, blueBTN;
     Question q1, q2, q3, q4, q5, currentQ;
     Question[] questions;
     Drawable resource;
-    int currentIndex;
-    int imageResource;
-    String message;
-    String uri;
-    int score;
+    int currentIndex, score, imageResource;
+    String message, uri;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
         falseBTN = (Button) findViewById(R.id.falseBTN);
         trueBTN = (Button) findViewById(R.id.trueBTN);
         nextBTN = (Button) findViewById(R.id.nextBTN);
+        redBTN = (Button) findViewById(R.id.redBTN);
+        blueBTN = (Button) findViewById(R.id.blueBTN);
+        greenBTN = (Button) findViewById(R.id.greenBTN);
         score = 0;
         q1 = new Question(getString(R.string.q1Text), false, "q1");
         q2 = new Question(getString(R.string.q2Text),false,"q2");
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                 {
-                     message = getString(R.string.incorrectMessage);
+                    message = getString(R.string.incorrectMessage);
                 }
 
                 int duration = Toast.LENGTH_SHORT;
