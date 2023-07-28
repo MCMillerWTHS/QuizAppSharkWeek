@@ -22,5 +22,5 @@
     <string name="grayBTNText">Shark Skin Gray</string>
     <string name="greenBTNText">Seaweed Green</string>
     <string name="backgroundText">Click your background color</string>
-
+    <string name="greeting">W E L C O M E</string>
 </resources>

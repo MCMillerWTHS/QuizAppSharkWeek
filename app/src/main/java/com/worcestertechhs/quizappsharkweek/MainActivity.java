@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private final String COLOR_KEY = "COLOR";
     TextView questionTV;
     ImageView pictureIV;
-    Button falseBTN, trueBTN, nextBTN, redBTN, greenBTN, blueBTN;
+    Button falseBTN, trueBTN, nextBTN; //redBTN, greenBTN, blueBTN;
     Question q1, q2, q3, q4, q5, currentQ;
     Question[] questions;
     Drawable resource;
@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
         falseBTN = (Button) findViewById(R.id.falseBTN);
         trueBTN = (Button) findViewById(R.id.trueBTN);
         nextBTN = (Button) findViewById(R.id.nextBTN);
-        redBTN = (Button) findViewById(R.id.redBTN);
-        blueBTN = (Button) findViewById(R.id.blueBTN);
-        greenBTN = (Button) findViewById(R.id.greenBTN);
+//        redBTN = (Button) findViewById(R.id.redBTN);
+//        blueBTN = (Button) findViewById(R.id.blueBTN);
+//        greenBTN = (Button) findViewById(R.id.greenBTN);
         score = 0;
         q1 = new Question(getString(R.string.q1Text), false, "q1");
         q2 = new Question(getString(R.string.q2Text),false,"q2");
@@ -154,8 +154,9 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-    }
+
     /** Called when the user taps the Send button */
+    /*
     public void selectColor(View view) {
         // Do something in response to button
         Log.d(null, "Button pressed");
@@ -190,7 +191,7 @@ public class MainActivity extends AppCompatActivity {
         else
         {
             layout.setBackgroundColor(Color.parseColor("gray"));
-        }
+        }*/
         /*
         //Switch based on  which button was pressed
         switch (view.getId()) {
