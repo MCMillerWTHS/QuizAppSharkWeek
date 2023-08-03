@@ -76,20 +76,6 @@ public class MainActivity extends AppCompatActivity {
         {
             layout.setBackgroundColor(Color.parseColor("gray"));
         }
-        /*
-        switch (initialColor) {
-            case R.id.redBTN:
-                layout.setBackgroundColor(Color.parseColor("red"));
-                Log.d(null,"Red");
-                break;
-            case R.id.blueBTN:
-                layout.setBackgroundColor(Color.parseColor("blue"));
-                break;
-            case R.id.greenBTN:
-                layout.setBackgroundColor(Color.parseColor("green"));
-                break;
-        }*/
-
 
         falseBTN.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -155,57 +141,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-    /** Called when the user taps the Send button */
-    /*
-    public void selectColor(View view) {
-        // Do something in response to button
-        Log.d(null, "Button pressed");
-
-        //grab the main activity's id
-        View layout = findViewById(R.id.mainView);
-
-        //Created SharedPreferences editor object
-        SharedPreferences.Editor preferencesEditor = mPreferences.edit();
-
-        //Write the id of the selected button to our SharedPreferences file
-        //this is an int Key/Value pair where the:
-        //key = COLOR_KEY = "COLOR"
-        //value = view.getID() = "red_button", "blue_button", etc.
-        preferencesEditor.putInt(COLOR_KEY, view.getId());
-
-        //Commit the value and save the file.
-        preferencesEditor.apply();
-
-        if(view.getId() == R.id.redBTN)
-        {
-            layout.setBackgroundColor(Color.parseColor("red"));
-            Log.d(null,"Red");
-        }
-        else if(view.getId() == R.id.blueBTN){
-            layout.setBackgroundColor(Color.parseColor("blue"));
-        }
-        else if(view.getId() == R.id.greenBTN)
-        {
-            layout.setBackgroundColor(Color.parseColor("green"));
-        }
-        else
-        {
-            layout.setBackgroundColor(Color.parseColor("gray"));
-        }*/
-        /*
-        //Switch based on  which button was pressed
-        switch (view.getId()) {
-            case R.id.redBTN:
-                //Set background color of main activity
-                layout.setBackgroundColor(Color.parseColor("red"));
-                Log.d(null,"Red");
-                break;
-            case R.id.greenBTN:
-                layout.setBackgroundColor(Color.parseColor("green"));
-                break;
-            case R.id.blueBTN:
-                layout.setBackgroundColor(Color.parseColor("blue"));
-                break;
-        }*/
     }
 }

@@ -35,5 +35,26 @@
         android:backgroundTint="@color/purple"
         android:id="@+id/emailBTN"
         android:text="@string/email" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple"
+            android:id="@+id/highScoreBTN"
+            android:text="High Score"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple"
+            android:id="@+id/retreiveScoreBTN"
+            android:text="Retreive Score"/>
+        <TextView
+            android:layout_width= "match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hScore"
+            android:text="High Score"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            />
 
 </LinearLayout>

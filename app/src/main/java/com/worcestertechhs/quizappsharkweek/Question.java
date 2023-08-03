@@ -7,10 +7,12 @@ public class Question {
     private boolean correctAnswer;
     private String picture;
 
+
     public Question(String qPrompt, boolean correctAnswer, String picture) {
         this.qPrompt = qPrompt;
         this.correctAnswer = correctAnswer;
         this.picture = picture;
+
     }
 
     public String getPicture() {
